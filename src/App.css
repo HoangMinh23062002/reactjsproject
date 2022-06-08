@@ -1,0 +1,20 @@
+.Overall-component{
+  /* background-color: aqua; */
+  /* margin-top: 10px; */
+  display: flex;
+  margin: 4%;
+}
+.modal-content{
+  width: 600px;
+  height: auto;
+  right: 70%;
+ 
+}
+.modal-title{
+  font-family: 1rem "PT Sans", sans-serif;
+}
+.modal-body{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
