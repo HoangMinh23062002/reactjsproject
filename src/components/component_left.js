@@ -102,7 +102,7 @@ class Component_left extends Component {
       <div className='Job-button'>
       <div class="container">
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            APPLY
+            Đăng Ký
           </button>
           <div class="modal fade" id="myModal">
             <div class="modal-dialog modal-sm">
@@ -114,12 +114,12 @@ class Component_left extends Component {
                   <div class="containerr">
                     <div class="container__item">
                       <form class="" onSubmit={this.onSave}>                       
-                        <input type="text" name="name" onChange = {this.onChange} value={this.state.name} class="form__field" placeholder="Your Name"  required/>  <br></br>
+                        <input type="text" name="name" onChange = {this.onChange} value={this.state.name} class="form__field" placeholder="Nhập Tên"  required/>  <br></br>
                        
-                        <input type="text" name="address" onChange = {this.onChange} value={this.state.address} class="form__field" placeholder="Your Address" required/>  <br></br>
-                        <input type="text" name="phone" onChange = {this.onChange} value={this.state.phone} class="form__field" placeholder="Your Phone Number" required/>  <br></br>
-                        <input type="text" name="time" onChange = {this.onChange} value={this.state.time} class="form__field" placeholder="Your Working Time" required />  <br></br>
-                        <input type="text" name="email" onChange = {this.onChange} value={this.state.email} class="form__field" placeholder="Your E-Mail Address" required/><br></br>
+                        <input type="text" name="address" onChange = {this.onChange} value={this.state.address} class="form__field" placeholder="Nhập Địa Chỉ" required/>  <br></br>
+                        <input type="text" name="phone" onChange = {this.onChange} value={this.state.phone} class="form__field" placeholder="Nhập số điện thoại" required/>  <br></br>
+                        <input type="text" name="time" onChange = {this.onChange} value={this.state.time} class="form__field" placeholder="Nhập Thoảng Thời Gian" required />  <br></br>
+                        <input type="text" name="email" onChange = {this.onChange} value={this.state.email} class="form__field" placeholder="Nhập Email" required/><br></br>
                         <input type="file" name="image" onChange = {this.onChange} class="form__field" placeholder="Your Image"  required/>  <br></br>
                         <div className="form-group" id = "image-edit" style={{ display: "none" }}>
                           <label>Image</label>
