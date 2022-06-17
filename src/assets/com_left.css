@@ -1,10 +1,9 @@
 .Model-job-dic{
-    
     background: #ffffff;
     box-shadow: 0px 0px 20px rgb(47 53 63 / 5%);
-padding: 30px;
-/* background-color: #b19066; */
-width: 100%;
+    padding: 30px;
+    width: 100%;
+    margin-left: 10%;
 
 }
 
@@ -35,7 +34,6 @@ width: 100%;
     
 }
 .Job-button button{
-    /* width: ; */
     background-color: #f5a337;
     border-color: #f5a337;
     color: aliceblue;
@@ -53,10 +51,7 @@ width: 100%;
 }
 .Detail-money{
     color: #f5a337;
-    /* background-color: #898f9a; */
-    /* height: 60px; */
     background-color: rgba(245, 163, 55, 0.1);
-    /* padding: 0px 5px; */
      margin-left: 9%;
 }
 .Content-terms{

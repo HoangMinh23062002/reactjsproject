@@ -1,0 +1,35 @@
+.Button-contact{
+     width: 15%;
+    position: fixed; 
+    top: 70%;
+    right: 0;
+}
+.Sentence{
+    font-size: 17px;
+    line-height: 22px;
+    padding-right: 18px;
+    text-align: left;
+    align-items: flex-start; background: rgb(255, 255, 255);
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+    cursor: pointer; 
+    display: flex;
+    padding: 8px 0px 8px 12px;
+ 
+}
+.icon-messages{
+    width: 60px;
+    height: 60px;
+    background-color: #f5a337;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius:60px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.icon-messages i{
+    font-size: 30px;
+    color: #fff;
+}

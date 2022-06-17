@@ -1,6 +1,5 @@
 .Overall-component{
-  /* background-color: aqua; */
-  /* margin-top: 10px; */
+
   display: flex;
   margin: 4%;
 }
@@ -17,4 +16,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+.Both-side{
+  /* background-color: black; */
+  margin: 0 10%;
 }
